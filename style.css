@@ -52,6 +52,15 @@ h1 {
     transform: scale(1.5)
 }
 
+a {
+    text-decoration: none;
+    color: goldenrod;
+}
+#legend {
+    text-align: center;
+    letter-spacing: 5px;
+}
+
 /*media query: large smartphone*/
 
 @media screen and (max-width: 625px) {

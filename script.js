@@ -1,5 +1,6 @@
 const imageContainer = document.getElementById('image-container');
 const loader = document.getElementById('loader');
+const legend = document.getElementById('legend')
 
 let ready = false;
 let imagesLoaded = 0;
@@ -77,6 +78,13 @@ window.addEventListener('scroll', () => {
         getPhotos();
     }
 });
+
+function githubCode() {
+    const githubSource = "https://github.com/Olaof/Infinite-Scroll";
+    window.open(githubSource, '_blank');
+}
+
+legend.addEventListener('click', githubCode);
 
 // on load
 getPhotos();
